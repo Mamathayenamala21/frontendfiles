@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <h1 class="p1">good morning</h1>
+  <p class="p1">good afternoon</p>
+  <h2 class="p1"> good night</h2>
+  <button ondblclick="print()">click</button>
+  
+</body>
+<script>
+    document.write("printing")
+    function print(){
+    var data=document.getElementsByClassName("p1")
+    console.log(data[0].innerHTML )
+    }
+</script>
+</html>
